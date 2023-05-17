@@ -39,5 +39,37 @@ header .nav ul li a{
     font-weight:bold;
 }
 header .nav ul li a:hover{
-    color:rgb(98, 128, 128);
+    color:rgb(96, 130, 130);
 }
+
+/* Section One Start */
+section{
+    background-color: #F9F9FF;
+    display: flex;
+    height: 750px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hafe1 p {
+    color: #9E8385;
+}
+
+.hafe1 input{
+    padding: 12px 20px;
+    background-color:#8393FF ;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: 1px solid #8393FF ;
+}
+
+.hafe1 input:hover{
+    box-shadow: 5px 10px 30px rgb(164, 186, 237);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+
+}
+/* Section One End */
+
