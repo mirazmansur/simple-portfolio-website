@@ -43,6 +43,7 @@ header .nav ul li a:hover{
 }
 
 /* Section One Start */
+
 section{
     background-color: #F9F9FF;
     display: flex;
@@ -50,6 +51,31 @@ section{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+}
+
+.hafe1, .hafe2 {
+    width: 50%;
+}
+
+.hafe1{
+    margin-left: 320px;
+    margin-top: 120px;
+}
+
+.hafe2 {
+    padding-right: 160px;
+}
+.hafe2 img {
+    max-width: 100%;
+    width: auto;
+}
+
+.hafe1 h3{
+    font-weight: normal;
+}
+
+.hafe1 h1{
+    font-size: 60px;
 }
 
 .hafe1 p {
@@ -63,6 +89,7 @@ section{
     color: white;
     outline: none;
     border: 1px solid #8393FF ;
+    border-radius: 5px;
 }
 
 .hafe1 input:hover{
