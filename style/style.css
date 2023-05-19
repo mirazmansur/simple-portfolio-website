@@ -16,9 +16,6 @@ header div{
     justify-content: space-between;
     align-items: center;
 }
-header .logo{
-    
-}
 header .nav{
     position: absolute;
     top: 0;
@@ -253,4 +250,26 @@ header .nav ul li a:hover{
     color:white
 }
 /* Section Tree End */
+
+/* Section Four Start */
+.section4 div{
+    float: left;
+    width: 20%;
+    background-color: #8393FF;
+    margin: 0 auto;
+    top:100px;
+    left: 200px;
+    l
+}
+
+.section4 h1{
+    font-size: 50px;
+    text-align: center;
+}
+.section4 h1,p{
+    text-align: center;
+    color: white;
+
+}
+/* Section Four End */
 
